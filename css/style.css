@@ -21,7 +21,7 @@ html{
 a{
     text-decoration: none;
     display: inline-block;
-    color: #000119;
+    /* color: #000119; */
 }
 img{
     display: inline-block;
@@ -205,6 +205,186 @@ h1,h2,h3,h4{
 .hero-image-overlay .para:last-child{
     margin: 0;
 }
+/* programming-skills*/
+.programming-skills{
+    margin-bottom: 6rem;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12rem;
+}
+.angular{
+    color: #a6120d ;
+}
+.html{
+    color: #f06529 ;
+}
+.css{
+    color: #2965f1 ;
+}
+.js{
+    color: #f0db4f ;
+}
+/* programming-skillsend */
+
+/* education-details */
+.education-details{
+    display: contents;
+
+    gap: 5rem;
+}
+.education-details .pg{
+    padding: 2rem 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 0.2rem solid var(--helper-color);
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+.education-details .pg:hover{
+    border: 0.3rem solid crimson;
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+}
+.education-details .ug:hover{
+    border: 0.3rem solid crimson;
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+
+}
+
+.education-details .ug{
+    padding: 2rem 2rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 0.2rem solid var(--helper-color);
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+
+}
+.education-details .pg .edu-title{
+    color: var(--white);
+    font-size: 4rem;
+}
+.education-details .ug .edu-title{
+    color: var(--white);
+    font-size: 4rem;
+}
+.education-details .ug .edu-institude{
+    color: lightcyan;
+    font-size: 3rem;
+}
+.education-details .pg .edu-institude{
+    color: lightcyan;
+    font-size: 2rem;
+}
+.education-details .pg .score{
+    color: lightgoldenrodyellow;
+    font-size: 1.7rem;
+}
+.education-details .ug .score{
+    color: lightgoldenrodyellow;
+    font-size: 1.7rem;
+}
+/* education-details end */
+/* contact */
+.contact{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.contact-grid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-icon{
+    font-size: 10rem;
+}
+.contact-icon-2{
+    font-size: 9rem;
+}
+.mail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.calling{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-title{
+    font-size: 2.5rem;
+    color: var(--primary-shades);
+}
+
+.contact-mail{
+    font-size: 2.5rem;
+    color: var(--para-color);
+}
+.contact-call{
+    font-size: 2.5rem;
+}
+
+.contact-grid .mail:hover{
+    color: red;
+    transition: all .5s ease-in-out;
+}
+.contact-grid .calling:hover{
+    color: green;
+    transition: all .5s ease-in-out;
+}
+/* contact end */
+/* footer */
+.footer-intro{
+    color: var(--primary-shades);
+}
+.footer-body{
+    background-color: var(--primary-shades);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+}
+.footer-text{
+    font-size: 1.8rem;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.footer-body .social-media a{
+    font-size: 3rem;
+}
+.footer-text {
+    color: var(--helper-color);
+}
+.whatsapp{
+    color: green;
+}
+.instagram{
+    color: red;
+}
+.linkedin{
+    color: var(--helper-color);
+}
+.footer-intro{
+    color: var(--white);
+}
+.footer-body .social-media .part2 a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    opacity: 0.7;
+}
+.footer-body .social-media .part2 a:hover,
+.footer-body .social-media .part2 a:active{
+    opacity: 1;
+}
+/* footer end */
 
 /* media query */
 @media (max-width:1250px){
@@ -234,6 +414,7 @@ h1,h2,h3,h4{
 }
 .section-hero::before{
     bottom: 6.1%;
+}
 }
 @media (max-width:768px){
     .container{ 
@@ -293,7 +474,6 @@ h1,h2,h3,h4{
     .active .mobile-navbar-btn .mobile-nav-icon[name="menu"]{
         display: none;
     }
-}
 }
 @media (max-width:425px){
     html{
