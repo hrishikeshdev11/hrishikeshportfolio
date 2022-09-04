@@ -216,7 +216,10 @@ header a{
 }
 /* services */
 .services-details{
-    display: contents;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     
 }
 .services-details .part1 {
@@ -504,6 +507,10 @@ header a{
     .hero-image .para{
         font-size: 1.9rem;
     }
+    .services-details{
+        display: grid;
+        grid-column-start: 1fr 1fr;       
+    }
     .navbar{
         position: absolute;
         top: 0;
@@ -583,6 +590,11 @@ header a{
     }
     .contact-grid .calling{
         display: contents;
+    }
+    .services-details{
+        display: contents;
+        justify-content: center;
+        align-items: center;
     }
 
 }
