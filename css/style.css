@@ -216,8 +216,8 @@ header a{
 }
 /* services */
 .services-details{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: contents;
+    
 }
 .services-details .part1 {
     background-image:linear-gradient(110deg, #fdcdd2 60%, #ffedd9 60%);
@@ -574,6 +574,15 @@ header a{
     .section-hero::before{
         bottom: 5.5 rem;
         height: 20%;
+    }
+    .contact-grid{
+        display: contents;
+    }
+    .contact-grid .mail{
+        display: contents;
+    }
+    .contact-grid .calling{
+        display: contents;
     }
 
 }
