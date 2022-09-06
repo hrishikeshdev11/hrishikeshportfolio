@@ -414,6 +414,17 @@ header a{
     transition: all .5s ease-in-out;
 }
 /* contact end */
+/* Video Player */
+.video-player{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.video-player-app{
+    height: 35rem;
+}
+
+/* Video Player End */
 /* footer */
 .footer-intro{
     color: var(--primary-shades);
@@ -596,5 +607,7 @@ header a{
         justify-content: center;
         align-items: center;
     }
-
+    .video-player-app{
+        height: 23.5rem;
+    }
 }
